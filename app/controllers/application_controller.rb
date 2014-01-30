@@ -5,16 +5,13 @@ class ApplicationController < ActionController::Base
   #aaaaaa
   #
   #
-  
-  #
-  #
-  #
-  #
-  #
   #
   
-  
-#
+  #
+  #
+  #
+  #
+  #
   #
   #
   #

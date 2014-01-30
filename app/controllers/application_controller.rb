@@ -31,8 +31,5 @@ class ApplicationController < ActionController::Base
   #
   #
   
-
-
-  
   #aa
 end

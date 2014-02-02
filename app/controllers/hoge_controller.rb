@@ -6,6 +6,7 @@ class HogeController < ActionController::Base
   #
   #
   
+  
   #
   #
   #

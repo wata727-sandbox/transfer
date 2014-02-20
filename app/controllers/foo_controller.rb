@@ -4,6 +4,7 @@ class FooController < ActionController::Base
   #
   #
   #
+  #
   
   #
   #

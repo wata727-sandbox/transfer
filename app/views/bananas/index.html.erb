@@ -1,0 +1,29 @@
+<h1>Listing bananas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bananas.each do |banana| %>
+      <tr>
+        <td><%= banana.name %></td>
+        <td><%= banana.price %></td>
+        <td><%= link_to 'Show', banana %></td>
+        <td><%= link_to 'Edit', edit_banana_path(banana) %></td>
+        <td><%= link_to 'Destroy', banana, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Banana', new_banana_path %>

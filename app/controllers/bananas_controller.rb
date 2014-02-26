@@ -24,7 +24,7 @@ class BananasController < ApplicationController
   # POST /bananas
   # POST /bananas.json
   def create
-    @banana = Banana.new(banana_params)
+    @banana = Banana.new(params[:banana])
 
     respond_to do |format|
       if @banana.save

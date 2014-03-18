@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
-  
+
+  before_filter :waste_action # Not waste!
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   def index3
@@ -10,11 +11,8 @@ class ApplicationController < ActionController::Base
   end
 
   def waste_action
-      
-      p "test"  
-      
+    p "test"
+    return true
   end
-  
-
 
 end

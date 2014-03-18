@@ -9,6 +9,12 @@ class ApplicationController < ActionController::Base
   end
   def index
   end
+
+  def waste_action
+      
+      p "test"  
+      
+  end
   
 
 

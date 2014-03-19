@@ -10,6 +10,7 @@ class ApplicationController < ActionController::Base
   def index
   end
 private
+
   def waste_action
     p "test"
     return true

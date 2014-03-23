@@ -1,7 +1,7 @@
 class Bananas2Controller < ApplicationController
   
   before_action :set_banana, only: [:show, :edit, :update, :destroy]
-  
+
   # GET /bananas
   # 
   # GET /bananas.json

@@ -1,12 +1,12 @@
 class BananasController < ApplicationController
-  
+
   before_action :set_banana, only: [:show, :edit, :update, :destroy]
-  
+
   # GET /bananas
-  # 
+  #
   # GET /bananas.json
   def index
-    @bananas = Banana.all
+    @banana = Banana.order(created_at: params[:order_by_created_at].to_sym)
   end
 
   # GET /bananas/1

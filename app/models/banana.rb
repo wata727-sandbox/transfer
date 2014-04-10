@@ -1,6 +1,6 @@
 class Banana < ActiveRecord::Base
 
   def cut
-    "cut!"
+    "cut cut!"
   end
 end

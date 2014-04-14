@@ -32,3 +32,9 @@ build:
         # - script:
         #        name: rspec
         #        code: bundle exec rspec
+    after-steps:
+        # Send a message to a HipChat room
+        - wercker/hipchat-notify@1.0.2:
+            token: $HIPCHAT_TOKEN
+            room-id: 483622
+            from-name: wercker

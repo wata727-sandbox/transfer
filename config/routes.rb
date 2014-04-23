@@ -1,5 +1,6 @@
 Hogehoge::Application.routes.draw do
   resources :bananas
+  get 'new_user' => 'foo#new_user'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

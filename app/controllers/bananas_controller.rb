@@ -6,6 +6,11 @@ class BananasController < ApplicationController
   #
   # GET /bananas.json
   def index
+    # Waste Code
+    while true
+      break
+    end
+
     @banana = Banana.order(created_at: params[:order_by_created_at].to_sym)
   end
 

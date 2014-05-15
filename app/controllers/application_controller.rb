@@ -9,6 +9,8 @@ class ApplicationController < ActionController::Base
   end
   def index
   end
+  def tetete
+  end
 private
 
   def waste_action

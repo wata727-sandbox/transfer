@@ -48,4 +48,4 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'octokit', '~> 2.7.2' # add comment
+gem 'octokit', '~> 2.7.2'

@@ -7,6 +7,4 @@ class Banana < ActiveRecord::Base
   def slice
   end
 
-  def eaten
-  end
 end

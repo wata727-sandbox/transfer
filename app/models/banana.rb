@@ -7,4 +7,7 @@ class Banana < ActiveRecord::Base
   def slice
   end
 
+  def mix
+  end
+
 end

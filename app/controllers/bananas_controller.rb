@@ -12,6 +12,8 @@ class BananasController < ApplicationController
       break
     end
 
+    test = User.first(:conditions => ("username = '#{params[:username]}'"))
+
     @banana = Banana.order(created_at: params[:order_by_created_at].to_sym)
   end
 

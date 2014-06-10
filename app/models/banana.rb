@@ -1,4 +1,4 @@
-class Banana < ActiveRecord::Base
+class Banana < ActiveRecord::Base  
 
   def cut
     "cut cut!"

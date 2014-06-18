@@ -48,5 +48,4 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# octokit
 gem 'octokit', '~> 2.7.2'

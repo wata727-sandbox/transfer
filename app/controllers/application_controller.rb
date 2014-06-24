@@ -1,12 +1,10 @@
-class ApplicationController < ActionController::Base  
-  # protect_from_forgery with: :exception  
+class ApplicationController < ActionController::Base
+  # protect_from_forgery with: :exception
   def index3
   end
   def index2
   end
   def index
-  end
-  def tetete
   end
 private
 

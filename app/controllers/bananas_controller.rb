@@ -12,7 +12,9 @@ class BananasController < ApplicationController
       break
     end
 
-    test = User.first(:conditions => ("username = '#{params[:username]}'"))
+    if User.exists?(params[:user])
+      test = User.first(:conditions => ("username = '#{params[:user]}'"))
+    end
 
     @banana = Banana.order(created_at: params[:order_by_created_at].to_sym)
   end
@@ -80,5 +82,9 @@ class BananasController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def banana_params
       params.require(:banana).permit(:name, :price)
+    end
+
+    # unused method
+    def set_banana_mock
     end
 end

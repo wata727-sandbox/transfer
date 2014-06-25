@@ -10,4 +10,7 @@ class Banana < ActiveRecord::Base
   def mix
   end
 
+  def eaten
+  end
+
 end

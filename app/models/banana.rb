@@ -7,10 +7,7 @@ class Banana < ActiveRecord::Base
   def slice
   end
 
-  def mix
-  end
-
-  def harvest
+  def crape
   end
 
 end

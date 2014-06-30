@@ -7,7 +7,7 @@ class Banana < ActiveRecord::Base
   def slice
   end
 
-  def crape
+  def cake
   end
 
 end

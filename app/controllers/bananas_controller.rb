@@ -1,5 +1,6 @@
 class BananasController < ApplicationController
 
+  attr_accessor :banana, :lemon
 
   before_action :set_banana, only: [:show, :edit, :update, :destroy]
 
@@ -22,11 +23,14 @@ class BananasController < ApplicationController
   # GET /bananas/1
   # GET /bananas/1.json
   def show
-  end
+    if @banana.blank?
+    p @banana = Banana.new
+    end
+    end
 
   # GET /bananas/new
   def new
-    @banana = Banana.new
+    @banana = Banana.new  
   end
 
   # GET /bananas/1/edit
@@ -73,6 +77,9 @@ class BananasController < ApplicationController
     end
   end
 
+  def pricieng
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_banana
@@ -85,6 +92,11 @@ class BananasController < ApplicationController
     end
 
     # unused method
-    def set_banana_mock
+    def get_banana_by_monkey(monkey)
+      monkey.parents.father.first.foods.each do |food|
+        return true if food == "banana"
+      end
+      return false
     end
+
 end

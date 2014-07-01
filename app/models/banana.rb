@@ -7,7 +7,7 @@ class Banana < ActiveRecord::Base
   def slice
   end
 
-  def juice
+  def drink
   end
 
 end

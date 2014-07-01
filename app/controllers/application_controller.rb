@@ -6,6 +6,9 @@ class ApplicationController < ActionController::Base
   end
   def index
   end
+  def index0
+  end
+
 private
 
   def waste_action

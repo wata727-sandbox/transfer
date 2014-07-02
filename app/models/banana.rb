@@ -5,6 +5,7 @@ class Banana < ActiveRecord::Base
   end
 
   def slice
+    p "slice#{params}"
   end
 
   def buy

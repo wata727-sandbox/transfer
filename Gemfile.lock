@@ -27,7 +27,7 @@ GEM
       tzinfo (~> 0.3.37)
     addressable (2.3.6)
     arel (4.0.2)
-    aws (2.10.0)
+    aws (2.9.1)
       http_connection
       uuidtools
       xml-simple
@@ -46,6 +46,7 @@ GEM
     execjs (2.2.1)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
+    google_visualr (2.1.0)
     hashie (2.1.2)
     hike (1.2.3)
     hipchat (1.0.1)
@@ -146,8 +147,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws (= 2.10.0)
+  aws (= 2.9.1)
   coffee-rails (~> 4.0.0)
+  google_visualr (= 2.1.0)
   hipchat (~> 1.0.1)
   jbuilder (~> 1.2)
   jquery-rails

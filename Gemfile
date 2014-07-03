@@ -31,6 +31,8 @@ gem "sidekiq", "~> 2.17.6"
 gem "hipchat", "~> 1.0.1"
 gem "omniauth", "~> 1.1.4"
 
+gem 'octokit', '~> 3.1.0'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

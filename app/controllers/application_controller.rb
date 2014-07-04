@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   end
   def index
   end
-  def index0
+  def index
   end
 
 private

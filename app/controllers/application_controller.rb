@@ -1,13 +1,14 @@
 class ApplicationController < ActionController::Base
-  # protect_from_forgery with: :exception  
+  # protect_from_forgery with: :exception
   def index3
   end
   def index2
   end
   def index
   end
-  def tetete
+  def index
   end
+
 private
 
   def waste_action

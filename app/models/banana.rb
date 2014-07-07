@@ -11,7 +11,4 @@ class Banana < ActiveRecord::Base
   def buy
   end
 
-  def rotten
-  end
-
 end

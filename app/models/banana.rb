@@ -11,4 +11,7 @@ class Banana < ActiveRecord::Base
   def buy
   end
 
+  def die
+  end
+
 end

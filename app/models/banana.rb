@@ -11,7 +11,4 @@ class Banana < ActiveRecord::Base
   def buy
   end
 
-  def divide
-  end
-
 end

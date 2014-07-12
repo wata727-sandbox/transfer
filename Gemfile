@@ -31,6 +31,9 @@ gem "sidekiq", "~> 2.17.6"
 gem "hipchat", "~> 1.0.1"
 gem "omniauth", "~> 1.1.4"
 
+# test
+gem "rails_best_practices", "~> 1.14.4"
+
 gem 'aws', '2.9.1'
 gem 'google_visualr', '2.1.0'
 

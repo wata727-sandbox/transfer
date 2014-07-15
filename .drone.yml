@@ -9,6 +9,10 @@ env:
   - RAILS_SECURITY_URL:               http://localhost:3002
   - REDISTOGO_URL:                    redis://127.0.0.1:6379
   - GOOGLE_ANALYTICS_WEB_PROPERTY_ID: UA-48995135-1
+script:
+  - bundle install
+  - bundle exec rake db:setup
+  - bundle exec rspec
 services:
   - redis
 notify:

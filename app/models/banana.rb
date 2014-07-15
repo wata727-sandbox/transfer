@@ -12,6 +12,7 @@ class Banana < ActiveRecord::Base
   end
 
   def tokyo
+    "hahahah"    
   end
 
 end

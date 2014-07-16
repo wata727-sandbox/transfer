@@ -12,6 +12,7 @@ class Banana < ActiveRecord::Base
   end
 
   def juice
+
   end
 
 end

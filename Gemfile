@@ -31,11 +31,17 @@ gem "sidekiq", "~> 2.17.6"
 gem "hipchat", "~> 1.0.1"
 gem "omniauth", "~> 1.1.4"
 
-# test
-gem "rails_best_practices", "~> 1.14.4"
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+end
 
-gem 'aws', '2.9.1'
-gem 'google_visualr', '2.1.0'
+# test
+group :test do
+  gem 'cucumber-rails', :require => false
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
+  gem 'capybara'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

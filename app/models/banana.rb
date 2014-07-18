@@ -11,8 +11,7 @@ class Banana < ActiveRecord::Base
   def buy
   end
 
-  def tokyo
-    "hahahah"    
+  def juice
   end
 
 end

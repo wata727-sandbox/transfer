@@ -10,8 +10,4 @@ class Banana < ActiveRecord::Base
 
   def buy
   end
-
-  def juice
-  end
-
 end

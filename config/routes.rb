@@ -1,4 +1,6 @@
 Hogehoge::Application.routes.draw do
+  resources :items
+
   resources :bananas
   get 'new_user' => 'foo#new_user'
 

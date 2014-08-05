@@ -1,5 +1,4 @@
 class Banana < ActiveRecord::Base
-
   def cut
     "cut cut!"
   end
@@ -10,8 +9,4 @@ class Banana < ActiveRecord::Base
 
   def buy
   end
-
-  def juice
-  end
-
 end

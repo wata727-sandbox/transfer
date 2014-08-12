@@ -31,7 +31,7 @@ gem "sidekiq", "~> 2.17.6"
 gem "hipchat", "~> 1.0.1"
 gem "omniauth", "~> 1.1.4"
 
-gem "mysql2"
+# gem "mysql2"
 
 group :development, :test do
   # gem 'rspec-rails', '~> 3.0.0'

@@ -34,7 +34,7 @@ gem "omniauth", "~> 1.1.4"
 gem "mysql2"
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0'
+  # gem 'rspec-rails', '~> 3.0.0'
 end
 
 # test

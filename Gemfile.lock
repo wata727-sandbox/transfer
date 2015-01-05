@@ -153,7 +153,7 @@ DEPENDENCIES
   mysql2
   octokit (~> 2.7.2)
   omniauth
-  rails (= 4.0.2)
+  rails (~> 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc
   sidekiq

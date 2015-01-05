@@ -57,7 +57,7 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.1)
-    libv8 (3.16.14.3)
+    libv8 (3.16.14.7)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -146,16 +146,17 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  hipchat (~> 1.0.1)
+  hipchat
   jbuilder (~> 1.2)
   jquery-rails
+  libv8 (= 3.16.14.7)
   mysql2
   octokit (~> 2.7.2)
-  omniauth (~> 1.1.4)
+  omniauth
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc
-  sidekiq (~> 2.17.6)
+  sidekiq
   sqlite3
   therubyracer
   turbolinks

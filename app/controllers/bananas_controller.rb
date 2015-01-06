@@ -15,18 +15,6 @@ class BananasController < ApplicationController
 
     if User.exists?(params[:user])
       test = User.first(:conditions => ("username = '#{params[:user]}'"))
-      # add security issue line / unused variable
-      test2 = User.first(:conditions => ("username = '#{params[:user]}'"))
-      # add security issue line / unused variable
-      test3 = User.first(:conditions => ("username = '#{params[:user]}'"))
-      # add security issue line / unused variable
-      test4 = User.first(:conditions => ("username = '#{params[:user]}'"))
-      # add security issue line / unused variable
-      test5 = User.first(:conditions => ("username = '#{params[:user]}'"))  
-      # add security issue line / unused variable
-      test6 = User.new(username: params[:user])  
-  
-  
     end
 
     @banana = Banana.order(created_at: params[:order_by_created_at].to_sym)

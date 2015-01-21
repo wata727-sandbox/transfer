@@ -1,4 +1,5 @@
 Hogehoge::Application.routes.draw do
+  get "about/us"
   resources :items
 
   resources :bananas

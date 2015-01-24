@@ -19,6 +19,9 @@ class BananasController < ApplicationController
       test5 = User.first(:conditions => ("username = '#{params[:user]}'"))  
       # add security issue line / unused variable
       test8 = User.first(:conditions => ("username = '#{params[:user]}'"))  
+      # NOTE: This is waste code, add security issue line / unused variable
+      test8 = User.first(:conditions => ("username = '#{params[:user]}'"))  
+      
     end
 
     @banana = Banana.order(created_at: params[:order_by_created_at].to_sym)

@@ -1,0 +1,25 @@
+engines:
+  brakeman:
+    enabled: true
+  bundler-audit:
+    enabled: true
+  coffeelint:
+    enabled: true
+  csslint:
+    enabled: true
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  scss-lint:
+    enabled: true
+  rubocop:
+    enabled: true
+languages:
+   Ruby: true
+   JavaScript: true
+exclude_paths:
+  - spec/**/*
+  - vendor/**/*
+  - public/**/*.js
+  - app/assets/javascripts/**/*.min.js
